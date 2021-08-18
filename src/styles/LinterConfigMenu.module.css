@@ -1,0 +1,24 @@
+.inputBox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.inputBox:hover input[type="checkbox"] {
+  /* outline: 2px solid #f00; */
+  /*  Apply STyles here */
+}
+
+.configWrapper {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.inputWrapper {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}

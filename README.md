@@ -1,10 +1,10 @@
 # Prettier Linter Utility App
 
-Live Demo utilities-app.web.app
+Live Demo [utilities-app.web.app]
 
 ## Built with Prettier, Linter, Firebase, Chakra-UI and React
 
-You can Beautyfy your code using Prettier on the web and lint your code on the web.
+You can beautify your code using Prettier on the web and lint your code on the web.
 you can change the default configuration through UI Config Menu or through directly From JSON File.
 
 # Getting Started with Create React App

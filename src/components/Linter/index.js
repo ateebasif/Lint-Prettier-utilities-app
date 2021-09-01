@@ -51,13 +51,14 @@ function Linter() {
     if (!useConfigFile) {
       // "through ui";
 
-      res = await axios.post("http://localhost:3001/linter", {
+      // res = await axios.post("http://localhost:3001/linter", {
+      res = await axios.post("https://lint-utility.herokuapp.com/linter", {
         code: codeValue,
         EsLintRules: JSON.stringify([configObj]),
       });
     } else {
       // "through ui Json";
-      res = await axios.post("http://localhost:3001/linter", {
+      res = await axios.post("https://lint-utility.herokuapp.com/linter", {
         code: codeValue,
         EsLintRules: jsonConfig,
       });

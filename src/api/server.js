@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = 3001 || process.env.PORT;
 const Linter = require("eslint").Linter;
 const linter = new Linter();
 
@@ -27,7 +27,6 @@ app.post("/linter", (req, res) => {
         mocha: true,
       },
     });
-    console.log("verifyAndFix", verifyAndFix);
     res.send({ verifyAndFix });
   } else {
     res.send({});

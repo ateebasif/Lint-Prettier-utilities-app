@@ -1,6 +1,6 @@
 # Prettier Linter Utility App
 
-Live Demo [utilities-app.web.app]
+Live Demo https://utilities-app.web.app
 
 ## Built with Prettier, Linter, Firebase, Chakra-UI and React
 

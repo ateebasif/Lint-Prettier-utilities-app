@@ -1,16 +1,45 @@
-# Prettier Linter Utility App
+<h1 align="center" >
+Prettier Linter Utility App
+</h1>
 
-Live Demo https://utilities-app.web.app
-
-## Built with Prettier, Linter, Firebase, Chakra-UI and React
-
+## Features 🔥
 - You can beautify your code using Prettier on the web and lint your code on the web.
 - **If you log-in you can see the previous history of code snippets that you used!**
 - you can change the default configuration through UI Config Menu or through directly From JSON File.
+## App Link
 
-## try this snippet to test the formatting
+ https://utilities-app.web.app/prettier
 
-go to this kink to test https://utilities-app.web.app/prettier
+
+## Preview
+
+<div style="display:flex;">
+  <img width="45%" alt="Screenshot 2022-09-19 at 1 53 46 PM" src="https://user-images.githubusercontent.com/22915645/190982497-f065fed4-dac0-4680-a1bc-ec98224dcb90.png">
+  <img width="45%" alt="Screenshot 2022-09-19 at 1 55 53 PM" src="https://user-images.githubusercontent.com/22915645/190982810-af4f2b49-0d23-42c9-acfe-b0d8fcf6fe8f.png">
+</div>
+
+
+<div style="display:flex;">
+  <img width="45%" alt="Screenshot 2022-09-19 at 1 42 35 PM" src="https://user-images.githubusercontent.com/22915645/190981659-18c73cbf-a7eb-438c-9cf6-0a239ccb8f4f.png">
+  <img width="45%" alt="Screenshot 2022-09-19 at 1 42 51 PM" src="https://user-images.githubusercontent.com/22915645/190981915-62673c94-3354-4ead-a6c9-e53f1531d5bc.png">
+</div>
+ 
+https://user-images.githubusercontent.com/22915645/190986694-08749808-f26c-4705-a16f-f6226bdee90d.mov
+
+
+## ⚙️ Built with
+- React
+- Prettier
+- Linter
+- Firebase
+- Chakra-UI
+
+
+## Prettier walkthrough
+
+go to this  https://utilities-app.web.app/prettier
+
+"try this snippet to test the formatting"
 
 ```
 function user(){ let a=""
@@ -18,46 +47,24 @@ function user(){ let a=""
 
     const login = (x) => {console.log("login")}
  ```
+## Linter walkthrough
 
-## try this snippet to test the linting
+go to this  https://utilities-app.web.app/linter
 
-go to this link to test https://utilities-app.web.app/linter
+"try this snippet to test the linting"
 ```
 function a (){
 }
 
 const name="john";
 ```
-
-## Try Logging in using
+## To See History
+ Try Logging in using
 - Email: guest@gmail.com
 - Password: 123456
 
 # (or just sign-up)
+## Authors
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [@ateebasif](https://github.com/ateebasif)
 
